@@ -1,52 +1,9 @@
-.navy-head {
-    background-color: rgb(0, 32, 96);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin: 20px;
-}
-.p-nawy {
-    margin-inline: 200px;
-    font-style: normal;
-    font-weight: 600;
-}
-.navy-href {
-    color: white;
-    text-decoration: none;
-    font-weight: 600;
-}
-.div-nawy
-{
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
-    justify-content: center;
-    margin: 20px;
-    margin-top: 0px;
-}
 .div-h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-weight: 600;
-}
-.span-h1-nawy {
-    color: white;
-    background-color: rgb(0, 32, 96);
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 10px;
-    border-radius: 10px;
-}
-.span-nawy {
-    color: white;
-    background-color: rgb(0, 32, 96);
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 10px;
-    border-radius: 10px;
 }
 .green-head {
     background-color: rgb(0, 176, 80);
