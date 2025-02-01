@@ -31,6 +31,7 @@
     justify-content: center;
     margin: 20px;
     margin-top: 0px;
+    font-weight: 600;
 }
 .h1 {
     display: flex;
@@ -55,6 +56,5 @@
     padding: 10px;
     border-radius: 10px;
     font-style: normal;
-    font-weight: 600px;
     text-align: justify;
 }
