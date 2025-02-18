@@ -1,6 +1,3 @@
-//function writehead(){
-  //Контейнер-шапка
-    document.write("На сайте ведутся технические работы");
     var head = document.createElement('div');
     head.className = "head";
     head.innerHTML = "<div></div>";
@@ -34,6 +31,4 @@
     a3.className = "href";
     a3.href="https://vadimrukavitsyn.github.io/index3.html";
     a3.innerHTML = "<a>Математика</a>";
-    p3.append(a3);              
-//}
-//writehead()
+    p3.append(a3);
