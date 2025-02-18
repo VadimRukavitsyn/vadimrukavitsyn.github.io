@@ -5,3 +5,4 @@ function writehead(){
   document.write('''<p class="p"><a class="href" href="index3.html">Математика</a></p>''')
   document.write('''</div>''')               
 }
+writehead()
