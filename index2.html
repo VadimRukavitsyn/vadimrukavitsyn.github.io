@@ -15,10 +15,16 @@
     <p class="p"><a class="href" href="index3.html">Математика</a></p>
 </div>
 <script>
+    //Контейнер-шапка
     let head = document.createElement('div');
     head.className = "head";
-    head.innerHTML = "<div>Иран</div>";
+    head.innerHTML = "<div></div>";
     document.body.append(head);
+    //Элемент 1 для вставки ссылки
+    let p1 = document.createElement('p');
+    p1.className = "p";
+    p1.innerHTML = "<p>Иран</p>";
+    head.appendChild(p1);
         //<p class=\"p\"><a class="href" href="index1.html">Химия</a></p>"document.write("<p class="p"><a class="href" href="index2.html">Биология</a></p><p class="p"><a class="href" href="index3.html">Математика</a></p></div>")  
 </script>
 <div class="div-h1">
