@@ -1,5 +1,6 @@
 //function writehead(){
   //Контейнер-шапка
+    document.write("На сайте ведутся технические работы");
     var head = document.createElement('div');
     head.className = "head";
     head.innerHTML = "<div></div>";
