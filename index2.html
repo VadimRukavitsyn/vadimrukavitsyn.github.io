@@ -15,11 +15,11 @@
     <p class="p"><a class="href" href="index3.html">Математика</a></p>
 </div>
 <script>
-  document.write("<div class=\"head\">")
-  document.write("<p class=\"p\"><a class="href" href="index1.html">Химия</a></p>")
-  document.write("<p class=\"p\"><a class="href" href="index2.html">Биология</a></p>")
-  document.write("<p class=\"p\"><a class="href" href="index3.html">Математика</a></p>")
-  document.write("</div>")  
+    let head = document.createElement('div');
+    head.className = "head";
+    head.innerHTML = "<div></div>";
+    document.body.append(head);
+        //<p class=\"p\"><a class="href" href="index1.html">Химия</a></p>"document.write("<p class="p"><a class="href" href="index2.html">Биология</a></p><p class="p"><a class="href" href="index3.html">Математика</a></p></div>")  
 </script>
 <div class="div-h1">
     <span class="span">Презентации</span>
