@@ -1,6 +1,8 @@
 function showBiology() {
+  document.querySelector('.biology').style.display = 'block';
 };
 function hideBiology() {
+  document.querySelector('.biology').style.display = 'none';
 };
 var head = document.createElement('div');
 head.className = "head";
@@ -25,9 +27,19 @@ var div2 = document.createElement('div');
 div2.className = "div-select";
 div2.onmouseover= "showBiology()";
 div2.onmouseout= "hideBiology()";
-div2.innerHTML = "Биология"
+div2.innerHTML = "Биология";
 head.appendChild(div2);
-//div2.appendChild
+var ul2 = document.createElement('ul');
+ul2.className = "ul";
+div2.appendChild(ul2);
+var lib1 = document.createElement('li');
+lib1.className = "li";
+lib1.innerHTML = "Презентации";
+ul2.appendChild(lib1);
+var lib2 = document.createElement('li');
+lib2.className = "li";
+lib2.innerHTML = "Тесты ЕГЭ";
+ul2.appendChild(lib2);
 //Элемент 3 для вставки ссылки
 var p3 = document.createElement('p');
 p3.className = "p";
