@@ -39,7 +39,7 @@ span2.className = "span-select";
 span2.innerHTML = "Биология";
 div2.appendChild(span2);
 var ul2 = document.createElement('ul');
-ul2.className = "ul";
+ul2.className = "hidden";
 div2.appendChild(ul2);
 var lib1 = document.createElement('li');
 lib1.className = "li";
