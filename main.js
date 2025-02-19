@@ -4,6 +4,12 @@ function showBiology() {
 function hideBiology() {
   document.querySelector('.biology').style.display = 'none';
 };
+function showOptions() {
+  document.querySelector('.hidden').style.display = 'block';
+};
+function hideOptions() {
+  document.querySelector('.hidden').style.display = 'none';
+};
 var head = document.createElement('div');
 head.className = "head";
 head.innerHTML = "<div></div>";
