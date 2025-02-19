@@ -50,3 +50,7 @@
     font-style: normal;
     text-align: justify;
 }
+.div-select .biology {
+    display: none;
+    position: absolute;
+}
