@@ -33,11 +33,12 @@ var div2 = document.createElement('div');
 div2.className = "div-select";
 div2.onmouseover= "showOptions()";
 div2.onmouseout= "hideOptions()";
+div2.innerHTML= "Биология";
 head.appendChild(div2);
-var span2 = document.createElement('span');
+/*var span2 = document.createElement('span');
 span2.className = "span-select";
 span2.innerHTML = "Биология";
-div2.appendChild(span2);
+div2.appendChild(span2);*/
 var ul2 = document.createElement('ul');
 ul2.className = "hidden";
 div2.appendChild(ul2);
