@@ -31,10 +31,13 @@ p2.append(a2);*/
 //Выпадающий список
 var div2 = document.createElement('div');
 div2.className = "div-select";
-div2.onmouseover= "showBiology()";
-div2.onmouseout= "hideBiology()";
-div2.innerHTML = "Биология";
+div2.onmouseover= "showOptions()";
+div2.onmouseout= "hideOptions()";
 head.appendChild(div2);
+var span2 = document.createElement('span');
+span2.className = "span-select";
+span2.innerHTML = "Биология";
+div2.appendChild(span2);
 var ul2 = document.createElement('ul');
 ul2.className = "ul";
 div2.appendChild(ul2);
