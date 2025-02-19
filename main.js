@@ -12,7 +12,6 @@ function hideOptions() {
 };
 var head = document.createElement('div');
 head.className = "head";
-head.innerHTML = "<div></div>";
 document.body.insertBefore(head, document.body.firstChild);
 //Элемент 1 для вставки ссылки
 var p1 = document.createElement('p');
