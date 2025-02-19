@@ -50,11 +50,7 @@
     font-style: normal;
     text-align: justify;
 }
-.div-select .biology {
-    display: none;
-    position: absolute;
-}
-.fake-select .hidden {
+.div-select .subhead {
     display: none;
     position: absolute;
 }
