@@ -50,7 +50,7 @@
     font-style: normal;
     text-align: justify;
 }
-.div-select .hidden {
+.head .div-select .hidden {
     display: none;
     position: absolute;
 }
