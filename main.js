@@ -30,6 +30,8 @@ p2.append(a2);*/
 //Выпадающий список
 var div2 = document.createElement('div');
 div2.className = "div-select";
+div2.onmouseover= "showOptions()";
+div2.onmouseout= "hideOptions()";
 //div2.innerHTML= "Биология";
 head.appendChild(div2);
 var span2 = document.createElement('span');
@@ -63,5 +65,3 @@ a3.className = "href";
 a3.href="https://vadimrukavitsyn.github.io/index3.html";
 a3.innerHTML = "<a>Математика</a>";
 p3.append(a3);
-div2.onmouseover= "showOptions()";
-div2.onmouseout= "hideOptions()";
