@@ -9,6 +9,21 @@
 </head>
 
 <body>
+    <script>
+    function showOptions() {
+  document.querySelector('.hidden').style.display = 'block';
+}
+function hideOptions() {
+  document.querySelector('.hidden').style.display = 'none';
+}
+</script>
+<div class="div-select" onmouseover="showOptions()" onmouseout="hideOptions()">
+  <span>Биология</span>
+  <ul class="hidden">
+    <li>Презентации</li>
+    <li>Тексты ЕГЭ</li>
+  </ul>
+</div>
 <div class="div-h1">
     <span class="span">Ресурсы</span>
 </div>
