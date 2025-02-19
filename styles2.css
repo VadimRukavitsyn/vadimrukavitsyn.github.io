@@ -54,3 +54,7 @@
     display: none;
     position: absolute;
 }
+.fake-select .hidden {
+    display: none;
+    position: absolute;
+}
