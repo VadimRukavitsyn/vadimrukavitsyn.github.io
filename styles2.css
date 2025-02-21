@@ -6,15 +6,35 @@
     font-weight: 600;
 }
 .head {
+    padding-block: 15px;
     background-color: rgb(0, 176, 80);
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin: 20px;
+    /*Выравнивание надписей по высоте*/
+    /*align-items: center;
+    /*
+    align-content: end;*/
+    /*Выравнивание блоков контекста по ширине*/
+    justify-content: space-around;
+    /*align-items: center;*/
+    .div-head {
+        width: 33%;
+        text-align: center;
+        .div-list {
+            position: fixed;
+            width: 30.85%;
+            display: none;
+            /*position: absolute;*/
+            background-color: rgb(0, 176, 80);
+            margin-top: 15px;
+            padding: 15px;
+            .href {
+                 margin-block: 10px;
+            }
+        }
+}
 }
 .p {
-    margin-inline: 200px;
     font-style: normal;
     font-weight: 600;
 }
