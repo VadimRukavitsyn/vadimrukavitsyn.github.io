@@ -18,11 +18,11 @@
     justify-content: space-around;
     /*align-items: center;*/
     .div-head {
-        width: 400px;
+        width: 33%;
         text-align: center;
         .div-list {
             position: fixed;
-            width: 380px;
+            width: 30.85%;
             display: none;
             /*position: absolute;*/
             background-color: rgb(0, 176, 80);
