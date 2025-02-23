@@ -51,10 +51,10 @@ a_tests_secondpart_genetics.innerHTML = "Задачи по генетике";
 div_biology_list.appendChild(a_tests_secondpart_genetics);
 
 var a_biology_addition = document.createElement('a');
-a_tests_secondpart_genetics.href = "https://vadimrukavitsyn.github.io/biology/addition.html";
-a_tests_secondpart_genetics.className = "href";
-a_tests_secondpart_genetics.innerHTML = "Дополнительная информация";
-div_biology_list.appendChild(a_tests_secondpart_genetics);
+a_biology_addition.href = "https://vadimrukavitsyn.github.io/biology/addition.html";
+a_biology_addition.className = "href";
+a_biology_addition.innerHTML = "Дополнительная информация";
+div_biology_list.appendChild(a_biology_addition);
 /*Задачи по цитологии*/
 document.getElementById('div_biology').onmouseover = function()
 {
