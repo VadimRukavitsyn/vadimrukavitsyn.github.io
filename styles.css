@@ -1,0 +1,67 @@
+.div-h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+.head {
+    padding-block: 15px;
+    display: flex;
+    flex-direction: row;
+    /*Выравнивание надписей по высоте*/
+    /*align-items: center;
+    /*
+    align-content: end;*/
+    /*Выравнивание блоков контекста по ширине*/
+    justify-content: space-around;
+    /*align-items: center;*/
+    .div-head {
+        width: 33%;
+        text-align: center;
+        .div-list {
+            position: fixed;
+            width: 30.85%;
+            display: none;
+            /*position: absolute;*/
+            margin-top: 15px;
+            padding: 15px;
+            .href {
+                 margin-block: 10px;
+            }
+        }
+}
+}
+.p {
+    font-style: normal;
+    font-weight: 600;
+}
+.href {
+    text-decoration: none;
+    font-weight: 600;
+}
+.div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    margin: 20px;
+    margin-top: 0px;
+    font-weight: 600;
+}
+.h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+.span {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    font-style: normal;
+    text-align: justify;
+}
