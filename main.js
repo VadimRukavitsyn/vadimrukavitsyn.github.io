@@ -37,15 +37,23 @@ a_data_presentations.innerHTML = "Презентации";
 div_biology_list.appendChild(a_data_presentations);
 /*Полезные ссылки
 Тесты ОГЭ*/
+
 var a_tests_firstpart_use = document.createElement('a');
 a_tests_firstpart_use.href = "https://vadimrukavitsyn.github.io/biology/tests/firstpart/use.html";
 a_tests_firstpart_use.className = "href";
 a_tests_firstpart_use.innerHTML = "Тесты ЕГЭ";
 div_biology_list.appendChild(a_tests_firstpart_use);
+
 var a_tests_secondpart_genetics = document.createElement('a');
 a_tests_secondpart_genetics.href = "https://vadimrukavitsyn.github.io/biology/tests/secondpart/genetics.html";
 a_tests_secondpart_genetics.className = "href";
 a_tests_secondpart_genetics.innerHTML = "Задачи по генетике";
+div_biology_list.appendChild(a_tests_secondpart_genetics);
+
+var a_biology_addition = document.createElement('a');
+a_tests_secondpart_genetics.href = "https://vadimrukavitsyn.github.io/biology/addition.html";
+a_tests_secondpart_genetics.className = "href";
+a_tests_secondpart_genetics.innerHTML = "Дополнительная информация";
 div_biology_list.appendChild(a_tests_secondpart_genetics);
 /*Задачи по цитологии*/
 document.getElementById('div_biology').onmouseover = function()
