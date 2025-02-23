@@ -22,7 +22,7 @@ head.appendChild(div_biology);
 var div_mathematics = document.createElement('div');
 div_mathematics.className = "div-head";
 div_mathematics.id = "div_mathematics";
-div_mathematics.innerHTML = '<a class="href" href="https://vadimrukavitsyn.github.io/index3.html">Математика</a>';
+div_mathematics.innerHTML = '<a class="href" href="https://vadimrukavitsyn.github.io/mathematics.html">Математика и информатика</a>';
 head.appendChild(div_mathematics);
 
 var div_biology_list = document.createElement('div');
