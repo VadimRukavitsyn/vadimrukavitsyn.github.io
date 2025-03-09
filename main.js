@@ -66,6 +66,7 @@ a_tests_secondpart_animals.innerHTML = "Задачи по делению кле�
 div_biology_list.appendChild(a_tests_secondpart_animals);
 
 var a_biology_facts = document.createElement('a');
+/*a_biology_facts.href = "https://vadimrukavitsyn.github.io/biology/facts.html";*/
 a_biology_facts.href = "https://vadimrukavitsyn.github.io/biology/facts.html";
 a_biology_facts.className = "href";
 a_biology_facts.innerHTML = "Интересные факты;
