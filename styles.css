@@ -36,6 +36,26 @@
         }
 }
 }
+.foot {
+    padding-block: 15px;
+    display: flex;
+    flex-direction: row;
+    /*Выравнивание надписей по высоте*/
+    /*align-items: center;
+    /*
+    align-content: end;*/
+    /*Выравнивание блоков контекста по ширине*/
+    justify-content: space-around;
+    /*align-items: center;*/
+    .div-foot {
+        width: 33%;
+        text-align: center;
+        display: grid;
+        .href {
+                 margin-block: 10px;
+            }
+}
+}
 .p {
     font-style: normal;
     font-weight: 600;
