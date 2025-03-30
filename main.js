@@ -194,7 +194,7 @@ var a_biology_addition = document.createElement('a');
 a_biology_addition.href = "https://vadimrukavitsyn.github.io/biology/addition.html";
 a_biology_addition.className = "href";
 a_biology_addition.innerHTML = "Дополнительная информация";
-div_biology.appendChild(a_biology_addition);*/
+div_biology.appendChild(a_biology_addition);
 
 var div_mathematics = document.createElement('div');
 div_mathematics.className = "div-head";
