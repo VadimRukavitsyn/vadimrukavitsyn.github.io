@@ -237,6 +237,18 @@ a_modeling.className = "href";
 a_modeling.innerHTML = "Моделирование";
 div_mathematics.appendChild(a_modeling);
 
+var div_medicine = document.createElement('div');
+div_medicine.className = "div-foot";
+div_medicine.id = "tail_div_medicine";
+div_medicine.innerHTML = '<a class="href" href="https://vadimrukavitsyn.github.io/index1.html">Медицина</a>';
+tail.appendChild(div_medicine);
+
+var div_about = document.createElement('div');
+div_about.className = "div-foot";
+div_about.id = "tail_div_about";
+div_about.innerHTML = '<a class="href" href="https://vadimrukavitsyn.github.io/index2.html">О репетиторе</a>';
+tail.appendChild(div_about);
+
 };
 HeadCreate();
 TailCreate();
