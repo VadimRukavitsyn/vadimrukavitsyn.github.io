@@ -135,7 +135,7 @@ document.getElementById('div_mathematics').onmouseout = function()
 function TailCreate()  {var tail = document.createElement('div');
 tail.className = "head";
 document.body.append(tail);
-/*
+
 var div_chemistry = document.createElement('div');
 div_chemistry.className = "div-head";
 div_chemistry.id = "tail_div_chemistry";
@@ -148,7 +148,7 @@ div_biology.id = "tail_div_biology";
 div_biology.innerHTML = '<a class="href" href="https://vadimrukavitsyn.github.io/index2.html">Биология</a>';
 tail.appendChild(div_biology);
 
-var div_biology_list = document.createElement('div');
+/*var div_biology_list = document.createElement('div');
 div_biology_list.className = "div-list";
 div_biology_list.id = "tail_div_biology_list";
 div_biology.appendChild(div_biology_list);
@@ -199,7 +199,7 @@ var a_biology_addition = document.createElement('a');
 a_biology_addition.href = "https://vadimrukavitsyn.github.io/biology/addition.html";
 a_biology_addition.className = "href";
 a_biology_addition.innerHTML = "Дополнительная информация";
-div_biology_list.appendChild(a_biology_addition);
+div_biology_list.appendChild(a_biology_addition);*/
 
 var div_mathematics = document.createElement('div');
 div_mathematics.className = "div-head";
@@ -207,7 +207,7 @@ div_mathematics.id = "tail_div_mathematics";
 div_mathematics.innerHTML = '<a class="href" href="https://vadimrukavitsyn.github.io/mathematics.html">Математика и информатика</a>';
 tail.appendChild(div_mathematics);
 
-var div_mathematics_list = document.createElement('div');
+/*var div_mathematics_list = document.createElement('div');
 div_mathematics_list.className = "div-list";
 div_mathematics_list.id = "tail_div_mathematics_list";
 div_mathematics.appendChild(div_mathematics_list);
