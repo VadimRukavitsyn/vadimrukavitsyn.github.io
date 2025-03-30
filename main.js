@@ -133,17 +133,17 @@ document.getElementById('div_mathematics').onmouseout = function()
 };
 };
 function TailCreate()  {var tail = document.createElement('div');
-tail.className = "head";
+tail.className = "foot";
 document.body.append(tail);
 
 var div_chemistry = document.createElement('div');
-div_chemistry.className = "div-head";
+div_chemistry.className = "div-foot";
 div_chemistry.id = "tail_div_chemistry";
 div_chemistry.innerHTML = '<a class="href" href="https://vadimrukavitsyn.github.io/index1.html">Химия</a>';
 tail.appendChild(div_chemistry);
 
 var div_biology = document.createElement('div');
-div_biology.className = "div-head";
+div_biology.className = "div-foot";
 div_biology.id = "tail_div_biology";
 div_biology.innerHTML = '<a class="href" href="https://vadimrukavitsyn.github.io/index2.html">Биология</a>';
 tail.appendChild(div_biology);
@@ -197,7 +197,7 @@ a_biology_addition.innerHTML = "Дополнительная информаци�
 div_biology.appendChild(a_biology_addition);
 
 var div_mathematics = document.createElement('div');
-div_mathematics.className = "div-head";
+div_mathematics.className = "div-foot";
 div_mathematics.id = "tail_div_mathematics";
 div_mathematics.innerHTML = '<a class="href" href="https://vadimrukavitsyn.github.io/mathematics.html">Математика и информатика</a>';
 tail.appendChild(div_mathematics);
