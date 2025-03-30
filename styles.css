@@ -20,9 +20,9 @@
         width: 33%;
         text-align: center;
         display: grid;
-        .href {
+        /*.href {
                  margin-block: 10px;
-            }
+            }*/
         .div-list {
             position: fixed;
             width: 30.85%;
