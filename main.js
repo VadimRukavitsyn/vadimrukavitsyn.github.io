@@ -148,7 +148,7 @@ div_biology.id = "tail_div_biology";
 div_biology.innerHTML = '<a class="href" href="https://vadimrukavitsyn.github.io/index2.html">Биология</a>';
 tail.appendChild(div_biology);
 
-/*var div_biology_list = document.createElement('div');
+var div_biology_list = document.createElement('div');
 div_biology_list.className = "div-list";
 div_biology_list.id = "tail_div_biology_list";
 div_biology.appendChild(div_biology_list);
@@ -236,8 +236,8 @@ a_modeling.className = "href";
 a_modeling.innerHTML = "Моделирование";
 div_mathematics_list.appendChild(a_modeling);
 
-document.getElementById('tail_div_mathematics_list').style.display = 'grid';
-document.getElementById('tail_div_biology_list').style.display = 'grid';*/
+document.getElementById('tail_div_mathematics_list').style.display = 'grid';*/
+document.getElementById('tail_div_biology_list').style.display = 'grid';
 };
 HeadCreate();
 TailCreate();
