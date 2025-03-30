@@ -19,6 +19,7 @@
     .div-head {
         width: 33%;
         text-align: center;
+        display: grid;
         .href {
                  margin-block: 10px;
             }
