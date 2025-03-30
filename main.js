@@ -148,16 +148,16 @@ div_biology.id = "tail_div_biology";
 div_biology.innerHTML = '<a class="href" href="https://vadimrukavitsyn.github.io/index2.html">Биология</a>';
 tail.appendChild(div_biology);
 
-var div_biology_list = document.createElement('div');
+/*var div_biology_list = document.createElement('div');
 div_biology_list.className = "div-list";
 div_biology_list.id = "tail_div_biology_list";
-div_biology.appendChild(div_biology_list);
+div_biology.appendChild(div_biology_list);*/
 
 var a_data_presentations = document.createElement('a');
 a_data_presentations.href = "https://vadimrukavitsyn.github.io/biology/data/presentations.html";
 a_data_presentations.className = "href";
 a_data_presentations.innerHTML = "Презентации";
-div_biology_list.appendChild(a_data_presentations);
+/*div_biology_list*/div_biology.appendChild(a_data_presentations);
                         
 /*var a_tests_firstpart_use = document.createElement('a');
 a_tests_firstpart_use.href = "https://vadimrukavitsyn.github.io/biology/tests/firstpart/use.html";
