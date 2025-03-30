@@ -237,7 +237,7 @@ a_modeling.innerHTML = "Моделирование";
 div_mathematics_list.appendChild(a_modeling);
 
 document.getElementById('tail_div_mathematics_list').style.display = 'grid';*/
-/*document.getElementById('tail_div_biology_list').style.display = 'grid';*/
+document.getElementById('tail_div_biology_list').style.display = 'grid';
 };
 HeadCreate();
 TailCreate();
