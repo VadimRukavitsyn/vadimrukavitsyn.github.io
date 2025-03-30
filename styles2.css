@@ -7,6 +7,9 @@
         }
 }
 }
+.foot {
+    background-color: rgb(0, 176, 80);
+}
 .href {
     color: rgb(192, 0, 0);
 }
