@@ -202,37 +202,30 @@ div_mathematics.id = "tail_div_mathematics";
 div_mathematics.innerHTML = '<a class="href" href="https://vadimrukavitsyn.github.io/mathematics.html">Математика и информатика</a>';
 tail.appendChild(div_mathematics);
 
-/*var div_mathematics_list = document.createElement('div');
-div_mathematics_list.className = "div-list";
-div_mathematics_list.id = "tail_div_mathematics_list";
-div_mathematics.appendChild(div_mathematics_list);
-
 var a_mathematics_statistics = document.createElement('a');
 a_mathematics_statistics.href = "https://vadimrukavitsyn.github.io/mathematics/statistics.html";
 a_mathematics_statistics.className = "href";
 a_mathematics_statistics.innerHTML = "Статистика";
-div_mathematics_list.appendChild(a_mathematics_statistics);
+div_mathematics.appendChild(a_mathematics_statistics);
 
 var a_programming_languages = document.createElement('a');
 a_programming_languages.href = "https://vadimrukavitsyn.github.io/mathematics/programming-languages.html";
 a_programming_languages.className = "href";
 a_programming_languages.innerHTML = "Языки программирования";
-div_mathematics_list.appendChild(a_programming_languages);
+div_mathematics.appendChild(a_programming_languages);
 
 var a_machine_learning = document.createElement('a');
 a_machine_learning.href = "https://vadimrukavitsyn.github.io/mathematics/machine-learning.html";
 a_machine_learning.className = "href";
 a_machine_learning.innerHTML = "Машинное обучение";
-div_mathematics_list.appendChild(a_machine_learning);
+div_mathematics.appendChild(a_machine_learning);
 
 var a_modeling = document.createElement('a');
 a_modeling.href = "https://vadimrukavitsyn.github.io/mathematics/modeling.html";
 a_modeling.className = "href";
 a_modeling.innerHTML = "Моделирование";
-div_mathematics_list.appendChild(a_modeling);
+div_mathematics.appendChild(a_modeling);
 
-document.getElementById('tail_div_mathematics_list').style.display = 'grid';*/
-document.getElementById('tail_div_biology_list').style.display = 'grid';
 };
 HeadCreate();
 TailCreate();
