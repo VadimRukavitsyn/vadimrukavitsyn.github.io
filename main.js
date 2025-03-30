@@ -153,7 +153,7 @@ div_biology_list.className = "div-list";
 div_biology_list.id = "tail_div_biology_list";
 div_biology.appendChild(div_biology_list);
 
-var a_data_presentations = document.createElement('a');
+/*var a_data_presentations = document.createElement('a');
 a_data_presentations.href = "https://vadimrukavitsyn.github.io/biology/data/presentations.html";
 a_data_presentations.className = "href";
 a_data_presentations.innerHTML = "Презентации";
@@ -237,7 +237,7 @@ a_modeling.innerHTML = "Моделирование";
 div_mathematics_list.appendChild(a_modeling);
 
 document.getElementById('tail_div_mathematics_list').style.display = 'grid';*/
-document.getElementById('tail_div_biology_list').style.display = 'grid';
+/*document.getElementById('tail_div_biology_list').style.display = 'grid';*/
 };
 HeadCreate();
 TailCreate();
