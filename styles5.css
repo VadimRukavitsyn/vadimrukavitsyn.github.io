@@ -1,0 +1,19 @@
+@import "https://vadimrukavitsyn.github.io/styles.css";
+.head {
+    background-color: rgb(90, 226, 175);
+    .div-head {
+        .div-list {
+            background-color: rgb(90, 226, 175);
+        }
+}
+}
+.foot {
+    background-color: rgb(90, 226, 175);
+}
+.href {
+    color: rgb(15, 40, 189);
+}
+.span {
+    color: rgb(15, 40, 189);
+    background-color: rgb(90, 226, 175);
+}
