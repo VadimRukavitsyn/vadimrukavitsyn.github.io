@@ -159,13 +159,13 @@ a_data_presentations.className = "href";
 a_data_presentations.innerHTML = "Презентации";
 /*div_biology_list*/div_biology.appendChild(a_data_presentations);
                         
-/*var a_tests_firstpart_use = document.createElement('a');
+var a_tests_firstpart_use = document.createElement('a');
 a_tests_firstpart_use.href = "https://vadimrukavitsyn.github.io/biology/tests/firstpart/use.html";
 a_tests_firstpart_use.className = "href";
 a_tests_firstpart_use.innerHTML = "Тесты ЕГЭ";
-div_biology_list.appendChild(a_tests_firstpart_use);
+/*div_biology_list*/div_biology.appendChild(a_tests_firstpart_use);
 
-var a_tests_secondpart_genetics = document.createElement('a');
+/*var a_tests_secondpart_genetics = document.createElement('a');
 a_tests_secondpart_genetics.href = "https://vadimrukavitsyn.github.io/biology/tests/secondpart/genetics.html";
 a_tests_secondpart_genetics.className = "href";
 a_tests_secondpart_genetics.innerHTML = "Задачи по генетике";
