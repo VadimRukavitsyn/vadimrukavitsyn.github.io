@@ -112,7 +112,18 @@ a_modeling.className = "href";
 a_modeling.innerHTML = "Моделирование";
 div_mathematics_list.appendChild(a_modeling);
 
-/*Задачи по цитологии*/
+var div_medicine = document.createElement('div');
+div_medicine.className = "div-head";
+div_medicine.id = "div_chemistry";
+div_medicine.innerHTML = '<a class="href" href="https://vadimrukavitsyn.github.io/index1.html">Медицина</a>';
+head.appendChild(div_medicine);
+
+var div_about = document.createElement('div');
+div_about.className = "div-head";
+div_about.id = "div_about";
+div_about.innerHTML = '<a class="href" href="https://vadimrukavitsyn.github.io/index2.html">О репетиторе</a>';
+head.appendChild(div_about);
+
 document.getElementById('div_biology').onmouseover = function()
 {
   document.getElementById('div_biology_list').style.display = 'grid';
