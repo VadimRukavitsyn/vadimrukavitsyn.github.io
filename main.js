@@ -135,7 +135,7 @@ document.getElementById('div_mathematics').onmouseout = function()
 function TailCreate()  {var tail = document.createElement('div');
 tail.className = "head";
 document.body.insertAfter(tail, document.body.lastChild);
-                        
+/*
 var div_chemistry = document.createElement('div');
 div_chemistry.className = "div-head";
 div_chemistry.id = "tail_div_chemistry";
@@ -158,9 +158,7 @@ a_data_presentations.href = "https://vadimrukavitsyn.github.io/biology/data/pres
 a_data_presentations.className = "href";
 a_data_presentations.innerHTML = "Презентации";
 div_biology_list.appendChild(a_data_presentations);
-/*Полезные ссылки
-Тесты ОГЭ*/
-
+                        
 var a_tests_firstpart_use = document.createElement('a');
 a_tests_firstpart_use.href = "https://vadimrukavitsyn.github.io/biology/tests/firstpart/use.html";
 a_tests_firstpart_use.className = "href";
@@ -238,9 +236,8 @@ a_modeling.className = "href";
 a_modeling.innerHTML = "Моделирование";
 div_mathematics_list.appendChild(a_modeling);
 
-/*Задачи по цитологии*/
 document.getElementById('tail_div_mathematics_list').style.display = 'grid';
-document.getElementById('tail_div_biology_list').style.display = 'grid';
+document.getElementById('tail_div_biology_list').style.display = 'grid';*/
 };
 HeadCreate();
 TailCreate();
