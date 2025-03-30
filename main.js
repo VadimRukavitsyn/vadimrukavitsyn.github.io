@@ -148,58 +148,53 @@ div_biology.id = "tail_div_biology";
 div_biology.innerHTML = '<a class="href" href="https://vadimrukavitsyn.github.io/index2.html">Биология</a>';
 tail.appendChild(div_biology);
 
-/*var div_biology_list = document.createElement('div');
-div_biology_list.className = "div-list";
-div_biology_list.id = "tail_div_biology_list";
-div_biology.appendChild(div_biology_list);*/
-
 var a_data_presentations = document.createElement('a');
 a_data_presentations.href = "https://vadimrukavitsyn.github.io/biology/data/presentations.html";
 a_data_presentations.className = "href";
 a_data_presentations.innerHTML = "Презентации";
-/*div_biology_list*/div_biology.appendChild(a_data_presentations);
+div_biology.appendChild(a_data_presentations);
                         
 var a_tests_firstpart_use = document.createElement('a');
 a_tests_firstpart_use.href = "https://vadimrukavitsyn.github.io/biology/tests/firstpart/use.html";
 a_tests_firstpart_use.className = "href";
 a_tests_firstpart_use.innerHTML = "Тесты ЕГЭ";
-/*div_biology_list*/div_biology.appendChild(a_tests_firstpart_use);
+div_biology.appendChild(a_tests_firstpart_use);
 
-/*var a_tests_secondpart_genetics = document.createElement('a');
+var a_tests_secondpart_genetics = document.createElement('a');
 a_tests_secondpart_genetics.href = "https://vadimrukavitsyn.github.io/biology/tests/secondpart/genetics.html";
 a_tests_secondpart_genetics.className = "href";
 a_tests_secondpart_genetics.innerHTML = "Задачи по генетике";
-div_biology_list.appendChild(a_tests_secondpart_genetics);
+div_biology.appendChild(a_tests_secondpart_genetics);
 
 var a_tests_secondpart_proteins = document.createElement('a');
 a_tests_secondpart_proteins.href = "https://vadimrukavitsyn.github.io/biology/tests/secondpart/proteins.html";
 a_tests_secondpart_proteins.className = "href";
 a_tests_secondpart_proteins.innerHTML = "Задачи на биосинтез белка";
-div_biology_list.appendChild(a_tests_secondpart_proteins);
+div_biology.appendChild(a_tests_secondpart_proteins);
                        
 var a_tests_secondpart_plants = document.createElement('a');
 a_tests_secondpart_plants.href = "https://vadimrukavitsyn.github.io/biology/tests/secondpart/plants.html";
 a_tests_secondpart_plants.className = "href";
 a_tests_secondpart_plants.innerHTML = "Задачи по жизненным циклам растений";
-div_biology_list.appendChild(a_tests_secondpart_plants);
+div_biology.appendChild(a_tests_secondpart_plants);
 
 var a_tests_secondpart_animals = document.createElement('a');
 a_tests_secondpart_animals.href = "https://vadimrukavitsyn.github.io/biology/tests/secondpart/animals.html";
 a_tests_secondpart_animals.className = "href";
 a_tests_secondpart_animals.innerHTML = "Задачи по делению клеток животных";
-div_biology_list.appendChild(a_tests_secondpart_animals);
+div_biology.appendChild(a_tests_secondpart_animals);
 
 var a_biology_facts = document.createElement('a');
 a_biology_facts.href = "https://vadimrukavitsyn.github.io/biology/facts.html";
 a_biology_facts.className = "href";
 a_biology_facts.innerHTML = "Интересные факты";
-div_biology_list.appendChild(a_biology_facts);
+div_biology.appendChild(a_biology_facts);
 
 var a_biology_addition = document.createElement('a');
 a_biology_addition.href = "https://vadimrukavitsyn.github.io/biology/addition.html";
 a_biology_addition.className = "href";
 a_biology_addition.innerHTML = "Дополнительная информация";
-div_biology_list.appendChild(a_biology_addition);*/
+div_biology.appendChild(a_biology_addition);*/
 
 var div_mathematics = document.createElement('div');
 div_mathematics.className = "div-head";
