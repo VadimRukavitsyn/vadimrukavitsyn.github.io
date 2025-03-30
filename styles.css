@@ -16,12 +16,12 @@
     /*Выравнивание блоков контекста по ширине*/
     justify-content: space-around;
     /*align-items: center;*/
-    .href {
-                 margin-block: 10px;
-            }
     .div-head {
         width: 33%;
         text-align: center;
+        .href {
+                 margin-block: 10px;
+            }
         .div-list {
             position: fixed;
             width: 30.85%;
