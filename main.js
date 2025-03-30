@@ -134,7 +134,7 @@ document.getElementById('div_mathematics').onmouseout = function()
 };
 function TailCreate()  {var tail = document.createElement('div');
 tail.className = "head";
-document.body.insertAfter(tail, document.body.lastChild);
+document.body.append(tail);
 /*
 var div_chemistry = document.createElement('div');
 div_chemistry.className = "div-head";
