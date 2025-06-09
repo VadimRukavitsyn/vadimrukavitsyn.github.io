@@ -13,13 +13,13 @@ document.body.insertBefore(head, document.body.firstChild);
 var div_chemistry = document.createElement('div');
 div_chemistry.className = "div-head";
 div_chemistry.id = "div_chemistry";
-div_chemistry.innerHTML = '<a class="href" href="https://vadimrukavitsyn.github.io/index1.html">Химия</a>';
+div_chemistry.innerHTML = '<a class="href" href="https://vadimrukavitsyn.github.io/chemistry.html">Химия</a>';
 head.appendChild(div_chemistry);
 
 var div_biology = document.createElement('div');
 div_biology.className = "div-head";
 div_biology.id = "div_biology";
-div_biology.innerHTML = '<a class="href" href="https://vadimrukavitsyn.github.io/index2.html">Биология</a>';
+div_biology.innerHTML = '<a class="href" href="https://vadimrukavitsyn.github.io/biology.html">Биология</a>';
 head.appendChild(div_biology);
 
 var div_biology_list = document.createElement('div');
@@ -150,13 +150,13 @@ document.body.append(tail);
 var div_chemistry = document.createElement('div');
 div_chemistry.className = "div-foot";
 div_chemistry.id = "tail_div_chemistry";
-div_chemistry.innerHTML = '<a class="href" href="https://vadimrukavitsyn.github.io/index1.html">Химия</a>';
+div_chemistry.innerHTML = '<a class="href" href="https://vadimrukavitsyn.github.io/chemistry.html">Химия</a>';
 tail.appendChild(div_chemistry);
 
 var div_biology = document.createElement('div');
 div_biology.className = "div-foot";
 div_biology.id = "tail_div_biology";
-div_biology.innerHTML = '<a class="href" href="https://vadimrukavitsyn.github.io/index2.html">Биология</a>';
+div_biology.innerHTML = '<a class="href" href="https://vadimrukavitsyn.github.io/biology.html">Биология</a>';
 tail.appendChild(div_biology);
 
 var a_data_presentations = document.createElement('a');
