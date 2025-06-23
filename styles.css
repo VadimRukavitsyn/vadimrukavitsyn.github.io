@@ -89,9 +89,8 @@
     font-style: normal;
     text-align: justify;
     .href {
-        box-sizing: border-box;
+        margin: -10px;
         .img {
-            box-sizing: border-box;
             height: 50px;
             border-radius: 10px;
         }
