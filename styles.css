@@ -73,6 +73,7 @@
     margin: 20px;
     margin-top: 0px;
     font-weight: 600;
+    gap: 100px;
 }
 .h1 {
     display: flex;
