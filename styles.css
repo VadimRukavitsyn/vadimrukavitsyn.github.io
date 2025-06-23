@@ -83,17 +83,14 @@
     font-weight: 600;
 }
 .span {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    /*удалим margin-top: 20px;
+    margin-bottom: 20px;*/
     padding: 10px;
     border-radius: 10px;
     font-style: normal;
     text-align: justify;
     .href {
-        margin-left: -5px;
-        margin-right: -5px;
-        margin-top: -35px;
-        margin-bottom: -35px;
+        margin: -5px;
         .img {
             height: 70px;
             border-radius: 10px;
