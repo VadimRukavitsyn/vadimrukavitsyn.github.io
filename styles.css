@@ -90,8 +90,8 @@
     font-style: normal;
     text-align: justify;
     .href {
-        margin: -5px;
         .img {
+            margin: -5px;
             height: 70px;
             border-radius: 10px;
         }
