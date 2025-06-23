@@ -91,6 +91,7 @@
     .href {
         box-sizing: border-box;
         .img {
+            box-sizing: border-box;
             height: 50px;
             border-radius: 10px;
         }
