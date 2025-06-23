@@ -88,4 +88,8 @@
     border-radius: 10px;
     font-style: normal;
     text-align: justify;
+    .img {
+        height: 50px;
+        border-radius: 10px;
+    }
 }
