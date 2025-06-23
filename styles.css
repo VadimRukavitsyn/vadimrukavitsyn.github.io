@@ -89,6 +89,7 @@
     font-style: normal;
     text-align: justify;
     .href {
+        box-sizing: border-box;
         .img {
             height: 50px;
             border-radius: 10px;
