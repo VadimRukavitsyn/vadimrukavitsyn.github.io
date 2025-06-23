@@ -89,7 +89,10 @@
     font-style: normal;
     text-align: justify;
     .href {
-        margin: -10px;
+        margin-left: -5px;
+        margin-right: -5px;
+        margin-top: -15px;
+        margin-bottom: -15px;
         .img {
             height: 50px;
             border-radius: 10px;
