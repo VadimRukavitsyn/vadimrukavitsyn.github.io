@@ -91,10 +91,10 @@
     .href {
         margin-left: -5px;
         margin-right: -5px;
-        margin-top: -15px;
-        margin-bottom: -15px;
+        margin-top: -25px;
+        margin-bottom: -25px;
         .img {
-            height: 50px;
+            height: 70px;
             border-radius: 10px;
         }
     }
