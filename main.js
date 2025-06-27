@@ -48,19 +48,19 @@ a_tests_secondpart_genetics.innerHTML = "Задачи по генетике";
 div_biology_list.appendChild(a_tests_secondpart_genetics);
 
 var a_tests_secondpart_proteins = document.createElement('a');
-a_tests_secondpart_proteins.href = "https://vadimrukavitsyn.github.io/biology/tests/secondpart/proteins.html";
+a_tests_secondpart_proteins.href = "https://vadimrukavitsyn.github.io/biology/use/secondpart/27/proteins.html";
 a_tests_secondpart_proteins.className = "href";
 a_tests_secondpart_proteins.innerHTML = "Задачи на биосинтез белка";
 div_biology_list.appendChild(a_tests_secondpart_proteins);
                        
 var a_tests_secondpart_plants = document.createElement('a');
-a_tests_secondpart_plants.href = "https://vadimrukavitsyn.github.io/biology/tests/secondpart/plants.html";
+a_tests_secondpart_plants.href = "https://vadimrukavitsyn.github.io/biology/use/secondpart/27/plants.html";
 a_tests_secondpart_plants.className = "href";
 a_tests_secondpart_plants.innerHTML = "Задачи по жизненным циклам растений";
 div_biology_list.appendChild(a_tests_secondpart_plants);
 
 var a_tests_secondpart_animals = document.createElement('a');
-a_tests_secondpart_animals.href = "https://vadimrukavitsyn.github.io/biology/tests/secondpart/animals.html";
+a_tests_secondpart_animals.href = "https://vadimrukavitsyn.github.io/biology/use/secondpart/27/animals.html";
 a_tests_secondpart_animals.className = "href";
 a_tests_secondpart_animals.innerHTML = "Задачи по делению клеток животных";
 div_biology_list.appendChild(a_tests_secondpart_animals);
@@ -178,19 +178,19 @@ a_tests_secondpart_genetics.innerHTML = "Задачи по генетике";
 div_biology.appendChild(a_tests_secondpart_genetics);
 
 var a_tests_secondpart_proteins = document.createElement('a');
-a_tests_secondpart_proteins.href = "https://vadimrukavitsyn.github.io/biology/tests/secondpart/proteins.html";
+a_tests_secondpart_proteins.href = "https://vadimrukavitsyn.github.io/biology/use/secondpart/27/proteins.html";
 a_tests_secondpart_proteins.className = "href";
 a_tests_secondpart_proteins.innerHTML = "Задачи на биосинтез белка";
 div_biology.appendChild(a_tests_secondpart_proteins);
                        
 var a_tests_secondpart_plants = document.createElement('a');
-a_tests_secondpart_plants.href = "https://vadimrukavitsyn.github.io/biology/tests/secondpart/plants.html";
+a_tests_secondpart_plants.href = "https://vadimrukavitsyn.github.io/biology/use/secondpart/27/plants.html";
 a_tests_secondpart_plants.className = "href";
 a_tests_secondpart_plants.innerHTML = "Задачи по жизненным циклам растений";
 div_biology.appendChild(a_tests_secondpart_plants);
 
 var a_tests_secondpart_animals = document.createElement('a');
-a_tests_secondpart_animals.href = "https://vadimrukavitsyn.github.io/biology/tests/secondpart/animals.html";
+a_tests_secondpart_animals.href = "https://vadimrukavitsyn.github.io/biology/use/secondpart/27/animals.html";
 a_tests_secondpart_animals.className = "href";
 a_tests_secondpart_animals.innerHTML = "Задачи по делению клеток животных";
 div_biology.appendChild(a_tests_secondpart_animals);
