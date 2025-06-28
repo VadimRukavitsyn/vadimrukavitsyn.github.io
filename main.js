@@ -1,3 +1,7 @@
+function div_chemistry_close()
+{document.getElementById('div_chemistry_list').style.display = 'none';
+};
+
 function div_biology_close()
 {document.getElementById('div_biology_list').style.display = 'none';
 };
@@ -22,6 +26,23 @@ div_chemistry.id = "div_chemistry";
 div_chemistry.innerHTML = '<a class="href" href="https://vadimrukavitsyn.github.io/chemistry.html">Химия</a>';
 head.appendChild(div_chemistry);
 
+var div_chemistry_list = document.createElement('div');
+div_chemistry_list.className = "div-list";
+div_chemistry_list.id = "div_chemistry_list";
+div_chemistry.appendChild(div_chemistry_list);
+
+var a_chemistry_presentations = document.createElement('a');
+a_chemistry_presentations.href = "https://vadimrukavitsyn.github.io/chemistry/data/presentations.html";
+a_chemistry_presentations.className = "href";
+a_chemistry_presentations.innerHTML = "Презентации";
+div_chemistry_list.appendChild(a_chemistry_presentations);
+
+var a_chemistry_mse = document.createElement('a');
+a_chemistry_mse.href = "https://vadimrukavitsyn.github.io/chemistry/mse.html";
+a_chemistry_mse.className = "href";
+a_chemistry_mse.innerHTML = "ОГЭ";
+div_chemistry_list.appendChild(a_chemistry_mse);
+
 var div_biology = document.createElement('div');
 div_biology.className = "div-head";
 div_biology.id = "div_biology";
@@ -33,11 +54,11 @@ div_biology_list.className = "div-list";
 div_biology_list.id = "div_biology_list";
 div_biology.appendChild(div_biology_list);
 
-var a_data_presentations = document.createElement('a');
-a_data_presentations.href = "https://vadimrukavitsyn.github.io/biology/data/presentations.html";
-a_data_presentations.className = "href";
-a_data_presentations.innerHTML = "Презентации";
-div_biology_list.appendChild(a_data_presentations);
+var a_biology_presentations = document.createElement('a');
+a_biology_presentations.href = "https://vadimrukavitsyn.github.io/biology/data/presentations.html";
+a_biology_presentations.className = "href";
+a_biology_presentations.innerHTML = "Презентации";
+div_biology_list.appendChild(a_biology_presentations);
 /*Полезные ссылки
 Тесты ОГЭ*/
 
@@ -141,8 +162,22 @@ div_about.id = "div_about";
 div_about.innerHTML = '<a class="href" href="https://vadimrukavitsyn.github.io/about.html">О репетиторе</a>';
 head.appendChild(div_about);
 
+document.getElementById('div_chemistry').onmouseover = function()
+{
+  document.getElementById('div_chemistry_list').style.display = 'grid';
+  document.getElementById('div_biology_list').style.display = 'none';
+  document.getElementById('div_mathematics_list').style.display = 'none';
+  document.getElementById('div_medicine_list').style.display = 'none';
+};
+
+document.getElementById('div_chemistry').onmouseout = function()
+{
+  setTimeout(div_chemistry_close, 4000)
+};
+
 document.getElementById('div_biology').onmouseover = function()
 {
+  document.getElementById('div_chemistry_list').style.display = 'none';
   document.getElementById('div_biology_list').style.display = 'grid';
   document.getElementById('div_mathematics_list').style.display = 'none';
   document.getElementById('div_medicine_list').style.display = 'none';
@@ -153,8 +188,9 @@ document.getElementById('div_biology').onmouseout = function()
 };
 document.getElementById('div_mathematics').onmouseover = function()
 {
-  document.getElementById('div_mathematics_list').style.display = 'grid';
+  document.getElementById('div_chemistry_list').style.display = 'none';
   document.getElementById('div_biology_list').style.display = 'none';
+  document.getElementById('div_mathematics_list').style.display = 'grid';
   document.getElementById('div_medicine_list').style.display = 'none';
 };
 document.getElementById('div_mathematics').onmouseout = function()
@@ -163,9 +199,10 @@ document.getElementById('div_mathematics').onmouseout = function()
 };
 document.getElementById('div_medicine').onmouseover = function()
 {
-  document.getElementById('div_medicine_list').style.display = 'grid';
+  document.getElementById('div_chemistry_list').style.display = 'none';
   document.getElementById('div_biology_list').style.display = 'none';
   document.getElementById('div_mathematics_list').style.display = 'none';
+  document.getElementById('div_medicine_list').style.display = 'grid';
 };
 document.getElementById('div_medicine').onmouseout = function()
 {
@@ -182,17 +219,29 @@ div_chemistry.id = "tail_div_chemistry";
 div_chemistry.innerHTML = '<a class="href" href="https://vadimrukavitsyn.github.io/chemistry.html">Химия</a>';
 tail.appendChild(div_chemistry);
 
+var a_chemistry_presentations = document.createElement('a');
+a_chemistry_presentations.href = "https://vadimrukavitsyn.github.io/chemistry/data/presentations.html";
+a_chemistry_presentations.className = "href";
+a_chemistry_presentations.innerHTML = "Презентации";
+div_chemistry.appendChild(a_chemistry_presentations);
+
+var a_chemistry_mse = document.createElement('a');
+a_chemistry_mse.href = "https://vadimrukavitsyn.github.io/chemistry/mse.html";
+a_chemistry_mse.className = "href";
+a_chemistry_mse.innerHTML = "ОГЭ";
+div_chemistry.appendChild(a_chemistry_mse);
+
 var div_biology = document.createElement('div');
 div_biology.className = "div-foot";
 div_biology.id = "tail_div_biology";
 div_biology.innerHTML = '<a class="href" href="https://vadimrukavitsyn.github.io/biology.html">Биология</a>';
 tail.appendChild(div_biology);
 
-var a_data_presentations = document.createElement('a');
-a_data_presentations.href = "https://vadimrukavitsyn.github.io/biology/data/presentations.html";
-a_data_presentations.className = "href";
-a_data_presentations.innerHTML = "Презентации";
-div_biology.appendChild(a_data_presentations);
+var a_biology_presentations = document.createElement('a');
+a_biology_presentations.href = "https://vadimrukavitsyn.github.io/biology/data/presentations.html";
+a_biology_presentations.className = "href";
+a_biology_presentations.innerHTML = "Презентации";
+div_biology.appendChild(a_biology_presentations);
                         
 var a_biology_use = document.createElement('a');
 a_biology_use.href = "https://vadimrukavitsyn.github.io/biology/use.html";
