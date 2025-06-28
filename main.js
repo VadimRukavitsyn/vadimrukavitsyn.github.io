@@ -41,17 +41,11 @@ a_tests_firstpart_use.className = "href";
 a_tests_firstpart_use.innerHTML = "Тесты ЕГЭ";
 div_biology_list.appendChild(a_tests_firstpart_use);
 
-var a_tests_secondpart_genetics = document.createElement('a');
-a_tests_secondpart_genetics.href = "https://vadimrukavitsyn.github.io/biology/tests/secondpart/genetics.html";
-a_tests_secondpart_genetics.className = "href";
-a_tests_secondpart_genetics.innerHTML = "Задачи по генетике";
-div_biology_list.appendChild(a_tests_secondpart_genetics);
-
-var a_tests_secondpart_27 = document.createElement('a');
-a_tests_secondpart_27.href = "https://vadimrukavitsyn.github.io/biology/use/secondpart/27.html";
-a_tests_secondpart_27.className = "href";
-a_tests_secondpart_27.innerHTML = "Задача 27 (ЕГЭ)";
-div_biology_list.appendChild(a_tests_secondpart_27);
+var a_tests_secondpart = document.createElement('a');
+a_tests_secondpart.href = "https://vadimrukavitsyn.github.io/biology/use/secondpart.html";
+a_tests_secondpart.className = "href";
+a_tests_secondpart.innerHTML = "2 часть ЕГЭ";
+div_biology_list.appendChild(a_tests_secondpart);
 
 var a_biology_facts = document.createElement('a');
 a_biology_facts.href = "https://vadimrukavitsyn.github.io/biology/facts.html";
@@ -159,17 +153,11 @@ a_tests_firstpart_use.className = "href";
 a_tests_firstpart_use.innerHTML = "Тесты ЕГЭ";
 div_biology.appendChild(a_tests_firstpart_use);
 
-var a_tests_secondpart_genetics = document.createElement('a');
-a_tests_secondpart_genetics.href = "https://vadimrukavitsyn.github.io/biology/tests/secondpart/genetics.html";
-a_tests_secondpart_genetics.className = "href";
-a_tests_secondpart_genetics.innerHTML = "Задачи по генетике";
-div_biology.appendChild(a_tests_secondpart_genetics);
-
-var a_tests_secondpart_27 = document.createElement('a');
-a_tests_secondpart_27.href = "https://vadimrukavitsyn.github.io/biology/use/secondpart/27.html";
-a_tests_secondpart_27.className = "href";
-a_tests_secondpart_27.innerHTML = "Задание 27 (ЕГЭ)";
-div_biology.appendChild(a_tests_secondpart_27);
+var a_tests_secondpart = document.createElement('a');
+a_tests_secondpart.href = "https://vadimrukavitsyn.github.io/biology/use/secondpart.html";
+a_tests_secondpart.className = "href";
+a_tests_secondpart.innerHTML = "2 часть ЕГЭ";
+div_biology.appendChild(a_tests_secondpart);
 
 var a_biology_facts = document.createElement('a');
 a_biology_facts.href = "https://vadimrukavitsyn.github.io/biology/facts.html";
