@@ -43,6 +43,12 @@ a_chemistry_mse.className = "href";
 a_chemistry_mse.innerHTML = "ОГЭ";
 div_chemistry_list.appendChild(a_chemistry_mse);
 
+var a_chemistry_use = document.createElement('a');
+a_chemistry_use.href = "https://vadimrukavitsyn.github.io/chemistry/use.html";
+a_chemistry_use.className = "href";
+a_chemistry_use.innerHTML = "EГЭ";
+div_chemistry_list.appendChild(a_chemistry_use);
+
 var div_biology = document.createElement('div');
 div_biology.className = "div-head";
 div_biology.id = "div_biology";
@@ -230,6 +236,12 @@ a_chemistry_mse.href = "https://vadimrukavitsyn.github.io/chemistry/mse.html";
 a_chemistry_mse.className = "href";
 a_chemistry_mse.innerHTML = "ОГЭ";
 div_chemistry.appendChild(a_chemistry_mse);
+
+var a_chemistry_use = document.createElement('a');
+a_chemistry_use.href = "https://vadimrukavitsyn.github.io/chemistry/use.html";
+a_chemistry_use.className = "href";
+a_chemistry_use.innerHTML = "ЕГЭ";
+div_chemistry.appendChild(a_chemistry_use);
 
 var div_biology = document.createElement('div');
 div_biology.className = "div-foot";
