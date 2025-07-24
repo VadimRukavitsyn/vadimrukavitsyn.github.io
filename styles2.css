@@ -1,24 +1,27 @@
 @import "https://vadimrukavitsyn.github.io/styles.css";
+:root {
+    --background-color: rgb(0, 176, 80);
+    --color: rgb(192, 0, 0);
+}
 .head {
-    background-color: rgb(0, 176, 80);
+    background-color: var(--background-color);
     .div-head {
         .div-list {
-            background-color: rgb(0, 176, 80);
+            background-color: var(--background-color);
         }
 }
 }
 .foot {
-    background-color: rgb(0, 176, 80);
+    background-color: var(--background-color);
 }
 .href {
-    color: rgb(192, 0, 0);
+    color: var(--color);
 }
 .span {
-    color: rgb(192, 0, 0);
-    background-color: rgb(0, 176, 80);
+    color: var(--color);
+    background-color: var(--background-color);
 }
-
 .span-h1 {
-    color: rgb(192, 0, 0);
-    background-color: rgb(0, 176, 80);
+    color: var(--color);
+    background-color: var(--background-color);
 }
