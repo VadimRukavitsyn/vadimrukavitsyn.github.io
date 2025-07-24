@@ -222,7 +222,7 @@ document.body.append(tail);
 var div_chemistry = document.createElement('div');
 div_chemistry.className = "div-foot";
 div_chemistry.id = "tail_div_chemistry";
-div_chemistry.innerHTML = '<a class="href" href="https://vadimrukavitsyn.github.io/chemistry.html">Химия</a>';
+div_chemistry.innerHTML = '<a class="href" id="tail_chemistry" href="https://vadimrukavitsyn.github.io/chemistry.html">Химия</a>';
 tail.appendChild(div_chemistry);
 
 var a_chemistry_presentations = document.createElement('a');
@@ -246,7 +246,7 @@ div_chemistry.appendChild(a_chemistry_use);
 var div_biology = document.createElement('div');
 div_biology.className = "div-foot";
 div_biology.id = "tail_div_biology";
-div_biology.innerHTML = '<a class="href" href="https://vadimrukavitsyn.github.io/biology.html">Биология</a>';
+div_biology.innerHTML = '<a class="href" id="tail_biology" href="https://vadimrukavitsyn.github.io/biology.html">Биология</a>';
 tail.appendChild(div_biology);
 
 var a_biology_presentations = document.createElement('a');
@@ -282,7 +282,7 @@ div_biology.appendChild(a_biology_links);
 var div_mathematics = document.createElement('div');
 div_mathematics.className = "div-foot";
 div_mathematics.id = "tail_div_mathematics";
-div_mathematics.innerHTML = '<a class="href" href="https://vadimrukavitsyn.github.io/mathematics.html">Математика и информатика</a>';
+div_mathematics.innerHTML = '<a class="href" id="tail_mathematics" href="https://vadimrukavitsyn.github.io/mathematics.html">Математика и информатика</a>';
 tail.appendChild(div_mathematics);
 
 var a_mathematics_statistics = document.createElement('a');
@@ -312,7 +312,7 @@ div_mathematics.appendChild(a_mathematics_modeling);
 var div_medicine = document.createElement('div');
 div_medicine.className = "div-foot";
 div_medicine.id = "tail_div_medicine";
-div_medicine.innerHTML = '<a class="href" href="https://vadimrukavitsyn.github.io/medicine.html">Медицина</a>';
+div_medicine.innerHTML = '<a class="href" id="tail_medicine" href="https://vadimrukavitsyn.github.io/medicine.html">Медицина</a>';
 tail.appendChild(div_medicine);
 
 var a_medicine_diseases = document.createElement('a');
@@ -342,7 +342,7 @@ div_medicine.appendChild(a_medicine_documents);
 var div_about = document.createElement('div');
 div_about.className = "div-foot";
 div_about.id = "tail_div_about";
-div_about.innerHTML = '<a class="href" href="https://vadimrukavitsyn.github.io/about.html">О репетиторе</a>';
+div_about.innerHTML = '<a class="href" id="tail_about" href="https://vadimrukavitsyn.github.io/about.html">О репетиторе</a>';
 tail.appendChild(div_about);
 };
 HeadCreate();
