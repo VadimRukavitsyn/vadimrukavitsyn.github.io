@@ -97,9 +97,15 @@ td {
 @media (max-width: 960px) {
     .head {
         display: none;
+        .span, .p, .href, td {
+            font-size: 18px;
+        }
     }
     .foot {
         display: block;
+        .span, .p, .href, td {
+            font-size: 20px;
+        }
         .div-foot {
             width: 100%;
             .href {
