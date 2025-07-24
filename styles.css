@@ -2,25 +2,16 @@
     padding-block: 15px;
     display: flex;
     flex-direction: row;
-    /*Выравнивание надписей по высоте*/
-    /*align-items: center;
-    /*
-    align-content: end;*/
     /*Выравнивание блоков контекста по ширине*/
     justify-content: space-around;
-    /*align-items: center;*/
     .div-head {
         width: 20%;
         text-align: center;
         display: grid;
-        /*.href {
-                 margin-block: 10px;
-            }*/
         .div-list {
             position: fixed;
             width: 19.5%;
             display: none;
-            /*position: absolute;*/
             margin-top: 15px;
             padding: 15px;
             .href {
@@ -33,13 +24,8 @@
     padding-block: 15px;
     display: flex;
     flex-direction: row;
-    /*Выравнивание надписей по высоте*/
-    /*align-items: center;
-    /*
-    align-content: end;*/
     /*Выравнивание блоков контекста по ширине*/
     justify-content: space-around;
-    /*align-items: center;*/
     .div-foot {
         width: 20%;
         text-align: center;
@@ -83,8 +69,6 @@
     margin-right: auto;
 }
 .span {
-    /*удалим margin-top: 20px;
-    margin-bottom: 20px;*/
     padding: 10px;
     border-radius: 10px;
     font-style: normal;
@@ -97,5 +81,36 @@
             height: 50px;
             border-radius: 10px;
         }
+    }
+}
+.table {
+    margin-right: auto;
+    margin-left: auto;
+    border-collapse: separate; 
+    border-spacing: 20px;
+}
+td {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+@media (max-width: 960px) {
+    .head {
+        display: none;
+    }
+    .foot {
+        display: block;
+        .div-foot {
+            width: 100%;
+            .href {
+                width: 90%;
+                text-align: right;
+                margin-left: 5%;
+                margin-right: 5%;
+            }
+        }
+    }
+    #tail_chemistry, #tail_biology, #tail_mathematics, #tail_medicine, #tail_about {
+        text-align: left;
     }
 }
