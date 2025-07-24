@@ -1,23 +1,27 @@
 @import "https://vadimrukavitsyn.github.io/styles.css";
+:root {
+    --background-color: rgb(0, 32, 96);
+    --color: white;
+}
 .head {
-    background-color: rgb(0, 32, 96);
+    background-color: var(--background-color);
     .div-head {
         .div-list {
-            background-color: rgb(0, 32, 96);
+            background-color: var(--background-color);
         }
 }
 }
 .foot {
-    background-color: rgb(0, 32, 96);
+    background-color: var(--background-color);
 }
 .href {
-    color: white;
+    color: var(--color);
 }
 .span {
-    color: white;
-    background-color: rgb(0, 32, 96);
+    color: var(--color);
+    background-color: var(--background-color);
 }
 .span-h1 {
-    color: white;
-    background-color: rgb(0, 32, 96);
+    color: var(--color);
+    background-color: var(--background-color);
 }
