@@ -3,6 +3,10 @@
     --background-color: rgb(90, 226, 175);
     --color: rgb(15, 40, 189);
 }
+td {
+    color: var(--color);
+    background-color: var(--background-color);
+}
 .head {
     background-color: var(--background-color);
     .div-head {
