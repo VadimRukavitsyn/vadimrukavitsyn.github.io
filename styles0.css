@@ -9,6 +9,21 @@ td {
     border-color: var(--color);
     border-style: solid;
 }
+.head {
+
+    background-color: var(--background-color);
+    .div-head {
+        .div-list {
+            background-color: var(--background-color);
+        }
+}
+}
+.foot {
+    background-color: var(--background-color);
+}
+.href {
+    color: var(--color);
+}
 .span {
     color: var(--color);
     background-color: var(--background-color);
