@@ -65,6 +65,13 @@ a_biology_presentations.href = "https://vadimrukavitsyn.github.io/biology/data/p
 a_biology_presentations.className = "href";
 a_biology_presentations.innerHTML = "Презентации";
 div_biology_list.appendChild(a_biology_presentations);
+
+var a_biology_abstract = document.createElement('a');
+a_biology_abstract.href = "https://vadimrukavitsyn.github.io/biology/data/abstract.html";
+a_biology_abstract.className = "href";
+a_biology_abstract.innerHTML = "Конспекты";
+div_biology_list.appendChild(a_biology_abstract);
+                       
 /*Полезные ссылки
 Тесты ОГЭ*/
 
@@ -254,6 +261,12 @@ a_biology_presentations.href = "https://vadimrukavitsyn.github.io/biology/data/p
 a_biology_presentations.className = "href";
 a_biology_presentations.innerHTML = "Презентации";
 div_biology.appendChild(a_biology_presentations);
+
+var a_biology_abstract = document.createElement('a');
+a_biology_abstract.href = "https://vadimrukavitsyn.github.io/biology/data/abstract.html";
+a_biology_abstract.className = "href";
+a_biology_abstract.innerHTML = "Конспекты";
+div_biology.appendChild(a_biology_abstract);
                         
 var a_biology_use = document.createElement('a');
 a_biology_use.href = "https://vadimrukavitsyn.github.io/biology/use.html";
