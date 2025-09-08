@@ -52,6 +52,12 @@
     margin: 20px;
     font-weight: 600;
     gap: 40px;
+    .img {
+            border-radius: 10px;
+            border-width: 3px;
+            margin-left: auto;
+            margin-right: auto;
+        }
 }
 .h1 {
     display: flex;
