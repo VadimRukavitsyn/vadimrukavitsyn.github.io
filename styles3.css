@@ -7,6 +7,12 @@ td {
     color: var(--color);
     background-color: var(--background-color);
 }
+.div {
+    .img {
+    border-color: var(--color);
+    border-style: solid;
+}
+}
 .head {
     background-color: var(--background-color);
     .div-head {
