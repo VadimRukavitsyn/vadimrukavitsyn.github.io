@@ -9,6 +9,12 @@ td {
     border-color: var(--color);
     border-style: solid;
 }
+.div {
+    .img {
+    border-color: var(--color);
+    border-style: solid;
+}
+}
 .head {
 
     background-color: var(--background-color);
