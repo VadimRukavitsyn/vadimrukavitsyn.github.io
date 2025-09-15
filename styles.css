@@ -99,6 +99,12 @@ td {
     text-align: center;
     padding: 20px;
     border-radius: 10px;
+    img {
+        border-radius: 0px;
+        border-width: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 @media (max-width: 960px) {
     .head {
