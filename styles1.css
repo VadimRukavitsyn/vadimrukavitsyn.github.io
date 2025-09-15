@@ -6,6 +6,9 @@
 td {
     color: var(--color);
     background-color: var(--background-color);
+    img {
+        border-style: none;
+    }
 }
 .div {
     .img {
