@@ -8,6 +8,9 @@ td {
     background-color: var(--background-color);
     border-color: var(--color);
     border-style: solid;
+    img {
+        border-style: none;
+    }
 }
 .div {
     .img {
