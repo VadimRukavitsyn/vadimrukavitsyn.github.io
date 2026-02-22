@@ -140,35 +140,6 @@ div_medicine.id = "div_medicine";
 div_medicine.innerHTML = '<a class="href" href="https://vadimrukavitsyn.github.io/medicine.html">Медицина</a>';
 head.appendChild(div_medicine);
 
-var div_medicine_list = document.createElement('div');
-div_medicine_list.className = "div-list";
-div_medicine_list.id = "div_medicine_list";
-div_medicine.appendChild(div_medicine_list);
-
-var a_medicine_diseases = document.createElement('a');
-a_medicine_diseases.href = "https://vadimrukavitsyn.github.io/medicine/diseases.html";
-a_medicine_diseases.className = "href";
-a_medicine_diseases.innerHTML = "Заболевания";
-div_medicine_list.appendChild(a_medicine_diseases);
-
-var a_medicine_drugs = document.createElement('a');
-a_medicine_drugs.href = "https://vadimrukavitsyn.github.io/medicine/drugs.html";
-a_medicine_drugs.className = "href";
-a_medicine_drugs.innerHTML = "Лекарства";
-div_medicine_list.appendChild(a_medicine_drugs);
-
-var a_medicine_operations = document.createElement('a');
-a_medicine_operations.href = "https://vadimrukavitsyn.github.io/medicine/operations.html";
-a_medicine_operations.className = "href";
-a_medicine_operations.innerHTML = "Операции";
-div_medicine_list.appendChild(a_medicine_operations);
-
-var a_medicine_documents = document.createElement('a');
-a_medicine_documents.href = "https://vadimrukavitsyn.github.io/medicine/documents.html";
-a_medicine_documents.className = "href";
-a_medicine_documents.innerHTML = "Документы";
-div_medicine_list.appendChild(a_medicine_documents);
-
 var div_about = document.createElement('div');
 div_about.className = "div-head";
 div_about.id = "div_about";
@@ -327,30 +298,6 @@ div_medicine.className = "div-foot";
 div_medicine.id = "tail_div_medicine";
 div_medicine.innerHTML = '<a class="href" id="tail_medicine" href="https://vadimrukavitsyn.github.io/medicine.html">Медицина</a>';
 tail.appendChild(div_medicine);
-
-var a_medicine_diseases = document.createElement('a');
-a_medicine_diseases.href = "https://vadimrukavitsyn.github.io/medicine/diseases.html";
-a_medicine_diseases.className = "href";
-a_medicine_diseases.innerHTML = "Заболевания";
-div_medicine.appendChild(a_medicine_diseases);
-
-var a_medicine_drugs = document.createElement('a');
-a_medicine_drugs.href = "https://vadimrukavitsyn.github.io/medicine/drugs.html";
-a_medicine_drugs.className = "href";
-a_medicine_drugs.innerHTML = "Лекарства";
-div_medicine.appendChild(a_medicine_drugs);
-
-var a_medicine_operations = document.createElement('a');
-a_medicine_operations.href = "https://vadimrukavitsyn.github.io/medicine/operations.html";
-a_medicine_operations.className = "href";
-a_medicine_operations.innerHTML = "Операции";
-div_medicine.appendChild(a_medicine_operations);
-
-var a_medicine_documents = document.createElement('a');
-a_medicine_documents.href = "https://vadimrukavitsyn.github.io/medicine/documents.html";
-a_medicine_documents.className = "href";
-a_medicine_documents.innerHTML = "Документы";
-div_medicine.appendChild(a_medicine_documents);
 
 var div_about = document.createElement('div');
 div_about.className = "div-foot";
