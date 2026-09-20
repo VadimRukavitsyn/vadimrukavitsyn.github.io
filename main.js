@@ -99,41 +99,6 @@ a_biology_links.className = "href";
 a_biology_links.innerHTML = "Ссылки";
 div_biology_list.appendChild(a_biology_links);
 
-var div_mathematics = document.createElement('div');
-div_mathematics.className = "div-head";
-div_mathematics.id = "div_mathematics";
-div_mathematics.innerHTML = '<a class="href" href="https://vadimrukavitsyn.github.io/mathematics.html">Математика и информатика</a>';
-head.appendChild(div_mathematics);
-
-var div_mathematics_list = document.createElement('div');
-div_mathematics_list.className = "div-list";
-div_mathematics_list.id = "div_mathematics_list";
-div_mathematics.appendChild(div_mathematics_list);
-
-var a_mathematics_statistics = document.createElement('a');
-a_mathematics_statistics.href = "https://vadimrukavitsyn.github.io/mathematics/statistics.html";
-a_mathematics_statistics.className = "href";
-a_mathematics_statistics.innerHTML = "Статистика";
-div_mathematics_list.appendChild(a_mathematics_statistics);
-
-var a_programming_languages = document.createElement('a');
-a_programming_languages.href = "https://vadimrukavitsyn.github.io/mathematics/programming-languages.html";
-a_programming_languages.className = "href";
-a_programming_languages.innerHTML = "Языки программирования";
-div_mathematics_list.appendChild(a_programming_languages);
-
-var a_machine_learning = document.createElement('a');
-a_machine_learning.href = "https://vadimrukavitsyn.github.io/mathematics/machine-learning.html";
-a_machine_learning.className = "href";
-a_machine_learning.innerHTML = "Машинное обучение";
-div_mathematics_list.appendChild(a_machine_learning);
-
-var a_modeling = document.createElement('a');
-a_modeling.href = "https://vadimrukavitsyn.github.io/mathematics/modeling.html";
-a_modeling.className = "href";
-a_modeling.innerHTML = "Моделирование";
-div_mathematics_list.appendChild(a_modeling);
-
 var div_medicine = document.createElement('div');
 div_medicine.className = "div-head";
 div_medicine.id = "div_medicine";
@@ -262,36 +227,6 @@ a_biology_links.href = "https://vadimrukavitsyn.github.io/biology/links.html";
 a_biology_links.className = "href";
 a_biology_links.innerHTML = "Ссылки";
 div_biology.appendChild(a_biology_links);
-
-var div_mathematics = document.createElement('div');
-div_mathematics.className = "div-foot";
-div_mathematics.id = "tail_div_mathematics";
-div_mathematics.innerHTML = '<a class="href" id="tail_mathematics" href="https://vadimrukavitsyn.github.io/mathematics.html">Математика и информатика</a>';
-tail.appendChild(div_mathematics);
-
-var a_mathematics_statistics = document.createElement('a');
-a_mathematics_statistics.href = "https://vadimrukavitsyn.github.io/mathematics/statistics.html";
-a_mathematics_statistics.className = "href";
-a_mathematics_statistics.innerHTML = "Статистика";
-div_mathematics.appendChild(a_mathematics_statistics);
-
-var a_mathematics_programming_languages = document.createElement('a');
-a_mathematics_programming_languages.href = "https://vadimrukavitsyn.github.io/mathematics/programming-languages.html";
-a_mathematics_programming_languages.className = "href";
-a_mathematics_programming_languages.innerHTML = "Языки программирования";
-div_mathematics.appendChild(a_mathematics_programming_languages);
-
-var a_mathematics_machine_learning = document.createElement('a');
-a_mathematics_machine_learning.href = "https://vadimrukavitsyn.github.io/mathematics/machine-learning.html";
-a_mathematics_machine_learning.className = "href";
-a_mathematics_machine_learning.innerHTML = "Машинное обучение";
-div_mathematics.appendChild(a_mathematics_machine_learning);
-
-var a_mathematics_modeling = document.createElement('a');
-a_mathematics_modeling.href = "https://vadimrukavitsyn.github.io/mathematics/modeling.html";
-a_mathematics_modeling.className = "href";
-a_mathematics_modeling.innerHTML = "Моделирование";
-div_mathematics.appendChild(a_mathematics_modeling);
 
 var div_medicine = document.createElement('div');
 div_medicine.className = "div-foot";
